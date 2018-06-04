@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Space Game</title>
+  
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+    <div class="hero-container">
+            <div class="container center">
+                <h1>Star Wars Game</h1>  
+            </div>
+     </div>
+    
+    <div class="row">
+        <div class="col-md-3">
+            <div id="solo-pic" class="player-container">
+                <p>Han Solo</p> <!-- Name -->
+                <button id="solo" class="person center" value="0"><img src="assets/images/solo.png"/></button>
+                <p>Heath: 120</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="lando-pic" class="player-container">
+                <p>Lando</p> <!-- Name -->
+                <button id="lando" class="person center" value="1"><img src="assets/images/lando.png"/></button>
+                <p>Heath: 100</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="maul-pic" class="player-container">
+                <p>Maul</p> <!-- Name -->
+                <button id="maul" class="person center" value="2"><img src="assets/images/maul.png"/></button>
+                <p>Heath: 150</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="vos-pic" class="player-container">
+                <p>Vos</p> <!-- Name -->
+                <button id="vos" class="person center" value="3"><img src="assets/images/vos.png"/></button>
+                <p>Heath: 180</p>
+            </div>
+        </div>
+    </div>  <!-- End character pictures -->
+
+    <br>
+
+    <center><div id="pick"></div></center>
+
+    <!-- Challengers row -->
+    <div class="row">
+        <div class="col-sm-3">
+            <div id="myStats">
+            </div>
+        </div>  
+
+        <div class="col-sm-3">
+            <div id="playerChar">
+            </div>
+        </div>   
+
+        <div class="col-sm-3">
+            <div id="enemyChar">
+            </div>
+        </div>   
+
+        <div class="col-sm-3">
+            <div id="enemyStats">
+            </div>
+        </div>    
+    </div>      <!-- End Challengers row -->
+
+    <!-- Attack Button -->
+    <br><br>
+    <container>
+        <center><button id="fight" class="hideit"><h2>Attack!!</h2></button></center>
+    </container>
+    <br>
+
+    <center><div id="game-msg"></div></center>
+    <center><button id="reset" class="hideit"><h2>Reset</h2></button></center>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+.hero-container {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+body {
+    background-image: url(../images/space_background.jpg);
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+    margin: 20px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.player-container {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+}
+
+.seeit {
+    visibility: visible;
+}
+
+.hideit {
+    visibility: hidden;
+}
