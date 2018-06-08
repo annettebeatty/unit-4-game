@@ -149,7 +149,9 @@ $(document).ready(function() {
 
     $("#reset").on("click", function()
     {
+        document.getElementById("pick").innerHTML = "<h2>Pick your character</h2>";
         resetGame(playerData);
+
         $("#reset").addClass("hideit");
         gameOver = false;
     })
